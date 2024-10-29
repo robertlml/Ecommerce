@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Brand </title>
+    <title>Cart</title>
     <link rel="stylesheet" href="css/style.css">
     <!--Box Icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
 <!--Header-->
@@ -30,18 +31,27 @@
             </a>
         </div>
     </header>
-    <section class="home" id="home">
-        <div class="home-img container">
-            <img src="images/home.png" alt=""/>
+    <!--Cart-->
+    <section class="cart container container">
+        <a href="index.html" class="back-homepage">
+            <i class="bx bx-chevron-left"></i>
+            <span>Back To Home</span>
+        </a>
+        <h2 class="cart-s-tittle">Shopping Cart</h2>
+        <div class="cart-box">
+            <div class="cart-data">
+                <div id="cartItems">
+                   
+                </div>
+            </div>
+            <div class="cart-t">
+                <div id="cartTotal"></div>
+                <a href="#" class="checkout-btn">Checkout</a>
+
+            </div>
         </div>
     </section>
-    <!--Productos-->
-    <section class="product container" id="products">
-        <!--heading-->
-        <h2 class="heading">Discover Products</h2>
-        <!--Products Container-->
-        <div class="product-container" id="productList"></div>
-    </section>
+
     <script src="js/main.js"></script>
 </body>
 </html>
